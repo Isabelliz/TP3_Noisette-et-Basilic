@@ -263,3 +263,54 @@ figure {
   border-radius: 50%;
   object-fit: cover;
 }
+
+footer {
+  border-bottom: solid 1px #949c81;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #dedfda;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+footer p {
+  color: gray;
+  font-size: 24px;
+  font-family: gidugu;
+  margin-top: 0;
+}
+
+.footer-1 {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 18px;
+  padding-top: 20px;
+}
+
+.fa-brands {
+  font-size: 28px;
+  color: #3d4935;
+  margin-left: 18px;
+}
+
+.fa-solid {
+  font-size: 28px;
+  color: #3d4935;
+  margin-right: 14px;
+}
+
+.fa-solid:hover {
+  color: #949c81;
+}
+
+.fa-brands:hover {
+  color: #949c81;
+}
+
+.footer-2 {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-between;
+}
