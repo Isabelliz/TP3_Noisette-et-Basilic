@@ -474,6 +474,96 @@ main.confirmation {
   grid-column: 4 / span 1;
 }
 
+/* Page ma commande (tableau) */
+
+table {
+  max-width: 640px;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+
+th,
+td {
+  padding: 12px;
+}
+
+th.nom-plat,
+th.prix,
+th.quantite {
+  background-color: #dadada;
+  text-align: center;
+  font-family: ship-bold;
+}
+
+th.nom-plat {
+  text-align: left;
+}
+
+td.nom-plat {
+  text-align: left;
+}
+
+td.prix,
+td.quantite {
+  text-align: center;
+  vertical-align: middle;
+}
+
+tr.ligne-grise {
+  background-color: #f2f2f2;
+}
+
+.commande-paiement {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carte-paiement {
+  background-color: #dadada;
+  margin-top: 58px;
+  padding: 20px;
+  width: 400px;
+  height: 398px;
+}
+
+.carte-paiement h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th.facture {
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+td.prix-facture {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+tbody .total th {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+tbody .total td.prix-facture {
+  font-size: 18px;
+}
+
+td.separator {
+  border-top: 1px solid black;
+  padding: 5px 0;
+}
+
 footer {
   border-bottom: solid 1px #949c81;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
