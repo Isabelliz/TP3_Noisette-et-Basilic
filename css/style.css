@@ -264,6 +264,141 @@ figure {
   object-fit: cover;
 }
 
+fieldset {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #949c812e;
+  border-radius: 20px;
+  padding: 0px 40px 40px 40px;
+  margin-bottom: 40px;
+  border: 2px solid rgb(61, 73, 53);
+  justify-content: center;
+}
+
+input {
+  border: solid 1px;
+  accent-color: #42d50d;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+input:focus {
+  border: 1px solid rgb(61, 73, 53);
+  outline: none;
+  background-color: rgb(61, 73, 53, 0.2);
+  border: solid 1px;
+}
+
+label {
+  display: block;
+  color: #333;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  margin-top: 20px;
+}
+
+label.number {
+  display: inline-block;
+}
+
+legend {
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+span {
+  color: red;
+  font-weight: bolder;
+}
+
+select {
+  padding: 4px;
+  border-radius: 8px;
+  border: 2px solid rgb(61, 73, 53);
+}
+
+select:focus {
+  border-color: rgb(61, 73, 53);
+  outline: none;
+}
+
+select:hover {
+  background-color: rgb(61, 73, 53);
+  color: #fff;
+}
+
+textarea {
+  color: #3d4935;
+  font-family: shippori;
+  padding: 4px;
+}
+
+.info-obligatoire {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.required {
+  color: red;
+}
+
+.nom-prenom {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.phone {
+  margin-top: 20px;
+}
+
+.date-heure {
+  display: flex;
+  gap: 60px;
+}
+
+.heure {
+  margin-bottom: 20px;
+}
+
+.emplacement {
+  margin-top: 30px;
+}
+
+.radio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.infolettre {
+  margin-top: 20px;
+}
+
+.soumettre {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.submit {
+  font-family: shippori;
+  font-size: 1rem;
+}
+
+.submit {
+  width: 100%;
+  color: white;
+  background-color: rgb(61, 73, 53);
+}
+
+.submit:hover {
+  background-color: #949c81;
+  color: #3d4935;
+}
+
 /* Page confirmation */
 
 main.confirmation {
