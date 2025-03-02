@@ -196,3 +196,70 @@ main {
 figure {
   text-align: center;
 }
+
+/* Section clients sastisfactions */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.commentaires p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.commentaires h3 {
+  text-align: center;
+}
+
+.commentaire-personne {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.commentaire-personne-2,
+.commentaire-personne-4,
+.commentaire-personne-6 {
+  background-color: #949c81;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.commentaire-personne-2 p,
+.commentaire-personne-4 p,
+.commentaire-personne-6 p {
+  color: white;
+}
+
+.commentaire-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.commentaire-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.commentaire-header p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.commentaires img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
