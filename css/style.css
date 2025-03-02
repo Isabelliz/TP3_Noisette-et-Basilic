@@ -21,3 +21,178 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+body {
+  font-family: shippori;
+  justify-content: center;
+  margin: 0;
+}
+
+.page-index,
+.page-reservation,
+.page-commande,
+.page-reservation,
+.page-restaurant {
+  background-image: url("../img/background-basilic.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  color: #3a4027;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-family: shippori;
+  color: #3a4027;
+  font-size: 22px;
+}
+
+header {
+  display: flex;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #dedfda;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 128px;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000; /* header par dessus tout */
+}
+
+.logo {
+  width: 200px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding-top: 128px;
+}
+
+.menu-nav nav ul li a {
+  text-decoration: none;
+  color: #3a4027;
+  font-size: 30px;
+}
+
+.menu-nav nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: gidugu;
+}
+
+.menu-nav a:hover {
+  color: #949c81;
+}
+
+.menu-nav a.active {
+  color: #949c81;
+}
+
+.separation {
+  width: 2px;
+  background-color: #3d4935;
+  height: 30px;
+  margin: auto 15px;
+  display: inline-block;
+  height: 40px;
+}
+
+.btn-commande {
+  display: flex;
+  align-items: center;
+  width: 222px;
+  height: 41px;
+  margin-top: 8px;
+  color: white !important;
+  padding-left: 8px;
+  background-color: #3d4935;
+  text-decoration: none;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 60px;
+  transition: background 0.3s ease;
+  font-size: 30px;
+}
+
+.btn-commande i.fa-solid {
+  font-size: 24px;
+  color: white;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  font-family: gidugu;
+  font-size: 24px;
+  align-items: center;
+  padding: 1px 40px;
+  background-color: #3d4935;
+  border-radius: 60px;
+}
+
+.button a:hover {
+  background-color: #949c81;
+}
+
+.btn-commande:hover {
+  color: white !important;
+  background-color: #949c81;
+}
+
+.btn-commande.active {
+  color: white !important;
+  background-color: #949c81;
+}
+
+/* Page index (acceuil) */
+
+.image-principale img {
+  border-radius: 32px;
+}
+
+.principale {
+  display: flex;
+  gap: 90px;
+  margin-top: 80px;
+}
+
+.principale p {
+  margin-top: 0;
+}
+
+.principale h3 {
+  margin-bottom: 0;
+}
+
+.logo-principale {
+  width: 380px;
+}
+
+figure {
+  text-align: center;
+}
