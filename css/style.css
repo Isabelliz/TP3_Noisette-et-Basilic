@@ -264,6 +264,32 @@ figure {
   object-fit: cover;
 }
 
+/* Page confirmation */
+
+main.confirmation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  max-width: fit-content;
+  border-radius: 32px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card p {
+  color: rgb(109, 109, 109);
+  text-align: center;
+}
+
 /* Page Restaurant */
 
 .container-grid {
