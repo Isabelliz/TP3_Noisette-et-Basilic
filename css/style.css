@@ -21,6 +21,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
 body {
   font-family: shippori;
   justify-content: center;
@@ -82,7 +83,14 @@ header .container {
 }
 
 main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding-top: 128px;
+}
+
+.container-index {
+  padding-top: 90px;
 }
 
 .menu-nav nav ul li a {
