@@ -314,6 +314,10 @@ input {
   padding: 6px;
 }
 
+input#txt-email {
+  width: 100%;
+}
+
 input:focus {
   border: 1px solid rgb(61, 73, 53);
   outline: none;
@@ -416,14 +420,18 @@ textarea {
 }
 
 .submit {
-  font-family: shippori;
-  font-size: 1rem;
+  color: white !important;
+  background-color: #3d4935;
+  text-decoration: none;
+  padding: 0;
+  border-radius: 60px;
+  transition: background 0.3s ease;
 }
 
 .submit {
   width: 100%;
-  color: white;
-  background-color: rgb(61, 73, 53);
+  font-family: gidugu;
+  font-size: 28px;
 }
 
 .submit:hover {
