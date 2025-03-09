@@ -472,8 +472,9 @@ main.confirmation {
   grid-template-columns: auto;
   grid-auto-rows: 200px;
   grid-gap: 24px;
-  padding: 10px;
+  margin-bottom: 40px;
 }
+
 .container-grid > div {
   background-color: #f1f1f1;
   font-size: 30px;
