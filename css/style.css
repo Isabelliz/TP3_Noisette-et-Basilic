@@ -316,6 +316,10 @@ input:focus {
   border: solid 1px;
 }
 
+::placeholder {
+  color: rgb(203, 203, 203);
+}
+
 label {
   display: block;
   color: #333;
