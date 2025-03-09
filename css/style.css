@@ -628,6 +628,7 @@ tr.ligne-grise {
 }
 
 .carte-paiement h2 {
+  text-align: left;
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
