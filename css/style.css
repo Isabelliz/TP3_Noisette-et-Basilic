@@ -31,7 +31,6 @@ body {
 .page-index,
 .page-reservation,
 .page-commande,
-.page-reservation,
 .page-restaurant {
   background-image: url("../img/background-basilic.png");
   background-size: cover;
@@ -277,14 +276,6 @@ figure {
 
 /* Page réservation (formulaire) */
 
-.page-reservation {
-  background-image: url("../img/background-basilic.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
 fieldset {
   max-width: 600px;
   margin: 40px auto;
@@ -351,7 +342,7 @@ span {
 select {
   padding: 4px;
   border-radius: 8px;
-  border: 2px solid rgb(61, 73, 53);
+  border: 1px solid rgb(61, 73, 53);
 }
 
 select:focus {
@@ -415,8 +406,6 @@ textarea {
 
 .soumettre {
   margin-top: 40px;
-  text-align: center;
-  width: 100%;
 }
 
 .submit {

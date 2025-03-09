@@ -49,14 +49,14 @@
 
     <form action="confirmation.html" method="get">
         <main class="container">
-            <h2>Formulaire de réservation</h2>
+            <h2>Réservation</h2>
 
             <fieldset class="fieldset-flex">
                 <legend>
-                    <h3>Information de réservation</h3>
+                    <h3>Information sur la réservation</h3>
                 </legend>
                 <fieldset class="info-obligatoire">
-                    <legend>Champs obligatoires <span> *</span></legend>
+                    <legend>Ces champs sont obligatoires <span> *</span></legend>
 
                     <div class="nom-prenom">
                         <div class="nom">
@@ -79,7 +79,7 @@
                     <div class="nbr-personne">
                         <label class="number" for="number-personne">Nombre de personne<span class="required">
                                 *</span></label>
-                        <input type="number" id="number-personne" name="number-personne" min="1" max="20" value="0">
+                        <input type="number" id="number-personne" name="number-personne" min="1" max="20" value="1">
                     </div>
 
                     <div class="date-heure">
@@ -107,13 +107,10 @@
                                 <option value="heure">21:00</option>
                             </select>
                         </div>
-
                     </div>
 
-
-
                     <div class="emplacement">
-                        <div class="label-group">Veuillez sélectionner l'emplacement<span class="required">*</span>
+                        <div class="label-group">Veuillez sélectionner l'emplacement<span class="required"> *</span>
                         </div>
                         <div class="radio">
                             <input type="radio" id="txt-salle" name="etat" value="salle" required>
@@ -125,14 +122,14 @@
                 </fieldset>
 
                 <div class="info-facultatif">
-                    <h3>Informations facultatives</h3>
-                    <label for="story">Laissez-nous un message ou un commentaire</label>
+                    <h3>Informations optionnelles</h3>
+                    <label for="story">Besoin de nous en dire plus ?</label>
                     <textarea id="story" name="story" rows="5" cols="33">
 Laissez un message ici...
                     </textarea>
 
                     <div class="email">
-                        <label for="txt-email">Entrez votre courriel :</label>
+                        <label for="txt-email">Entrez votre courriel</label>
                         <input type="email" id="txt-email" name="mail-compte" placeholder="jonhdoe@gmail.com">
                     </div>
 
