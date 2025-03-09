@@ -272,6 +272,16 @@ figure {
   object-fit: cover;
 }
 
+/* Page réservation (formulaire) */
+
+.page-reservation {
+  background-image: url("../img/background-basilic.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 fieldset {
   max-width: 600px;
   margin: 40px auto;
@@ -281,6 +291,17 @@ fieldset {
   margin-bottom: 40px;
   border: 2px solid rgb(61, 73, 53);
   justify-content: center;
+}
+
+.fieldset-flex {
+  display: flex;
+}
+
+.info-facultatif {
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 input {

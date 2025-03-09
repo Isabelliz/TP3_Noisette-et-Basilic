@@ -50,7 +50,7 @@
         <main class="container">
             <h2>Formulaire de réservation</h2>
 
-            <fieldset>
+            <fieldset class="fieldset-flex">
                 <legend>
                     <h3>Information de réservation</h3>
                 </legend>
@@ -123,29 +123,26 @@
                     </div>
                 </fieldset>
 
-
-
-                <h3>Informations facultatives</h3>
-
-
-                <label for="story">Laissez-nous un message ou un commentaire</label>
-                <textarea id="story" name="story" rows="5" cols="33">
+                <div class="info-facultatif">
+                    <h3>Informations facultatives</h3>
+                    <label for="story">Laissez-nous un message ou un commentaire</label>
+                    <textarea id="story" name="story" rows="5" cols="33">
 Laissez un message ici...
                     </textarea>
 
-                <div class="email">
-                    <label for="txt-email">Entrez votre courriel :</label>
-                    <input type="email" id="txt-email" name="mail-compte" placeholder="jonhdoe@gmail.com">
-                </div>
+                    <div class="email">
+                        <label for="txt-email">Entrez votre courriel :</label>
+                        <input type="email" id="txt-email" name="mail-compte" placeholder="jonhdoe@gmail.com">
+                    </div>
 
-                <div class="infolettre">
-                    <input type="checkbox" name="ckb-liste" checked>
-                    S'inscrire à l'infolettre
-                </div>
+                    <div class="infolettre">
+                        <input type="checkbox" name="ckb-liste" checked>
+                        S'inscrire à l'infolettre
+                    </div>
 
-                <div class="soumettre">
-                    <input class="submit" type="submit" value="Soumettre la réservation">
-                </div>
+                    <div class="soumettre">
+                        <input class="submit" type="submit" value="Soumettre la réservation">
+                    </div>
             </fieldset>
         </main>
     </form>
