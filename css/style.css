@@ -150,6 +150,9 @@ main {
 .button {
   display: flex;
   gap: 20px;
+  height: 52px;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .button a {
