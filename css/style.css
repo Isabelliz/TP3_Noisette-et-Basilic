@@ -525,46 +525,94 @@ td {
 th.nom-plat,
 th.prix,
 th.quantite {
-  background-color: #dadada;
+  background-color: #949c81;
   text-align: center;
   font-family: ship-bold;
 }
 
-th.nom-plat {
+th.nom-plat,
+th.prix,
+th.quantite {
   text-align: left;
+  color: white;
+  font-weight: 600;
 }
 
 td.nom-plat {
   text-align: left;
+  color: #3a4027;
 }
 
 td.prix,
 td.quantite {
   text-align: center;
   vertical-align: middle;
+  color: #3a4027;
 }
 
 tr.ligne-grise {
-  background-color: #f2f2f2;
+  background-color: #949c817e;
+}
+
+.commande h3 {
+  font-size: 24px;
+  color: #3d4935;
 }
 
 .commande-paiement {
   display: flex;
   justify-content: space-between;
+  gap: 45px;
 }
 
 .carte-paiement {
-  background-color: #dadada;
-  margin-top: 58px;
+  background-color: #949c81;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  margin-top: 144px;
   padding: 20px;
   width: 400px;
-  height: 398px;
+  max-height: 450px;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .carte-paiement h2 {
+  color: white;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 32px;
+}
+
+.button-commande {
+  display: flex;
+  gap: 20px;
+  height: 52px;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.button-commande a {
+  color: white;
+  text-decoration: none;
+  font-family: gidugu;
+  font-size: 24px;
+  align-items: center;
+  padding: 1px 40px;
+  background-color: #3d4935;
+  border-radius: 60px;
+}
+
+.button-commande a:hover {
+  background-color: white;
+  color: #3d4935;
+  border: 2px solid rgb(61, 73, 53);
+}
+
+th.facture,
+td.prix-facture {
+  color: white;
 }
 
 table {
@@ -594,7 +642,7 @@ tbody .total td.prix-facture {
 }
 
 td.separator {
-  border-top: 1px solid black;
+  border-top: 1px solid white;
   padding: 5px 0;
 }
 
