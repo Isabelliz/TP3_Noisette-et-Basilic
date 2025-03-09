@@ -42,7 +42,7 @@ body {
 h2 {
   font-size: 28px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   color: #3a4027;
 }
 
@@ -278,7 +278,7 @@ figure {
 
 fieldset {
   max-width: 600px;
-  margin: 40px auto;
+  margin: auto;
   background-color: #949c812e;
   border-radius: 20px;
   padding: 0px 40px 40px 40px;
@@ -465,6 +465,7 @@ main.confirmation {
   grid-template-columns: auto;
   grid-auto-rows: 200px;
   grid-gap: 24px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -617,7 +618,7 @@ tr.ligne-grise {
   background-color: #949c81;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
-  margin-top: 144px;
+  margin-top: 80px;
   padding: 20px;
   width: 400px;
   max-height: 450px;
