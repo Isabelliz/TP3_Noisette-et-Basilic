@@ -508,6 +508,54 @@ main.confirmation {
   grid-column: 4 / span 1;
 }
 
+.contact-box {
+  display: flex;
+  justify-content: space-around;
+  background-color: #949c8177;
+  color: #3a4027;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  gap: 45px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-map {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.icone-h3 {
+  display: flex;
+  align-items: center;
+}
+
+.adresse p,
+.tel p,
+.mail p {
+  margin-top: 0px;
+}
+
+.mail a,
+.tel a {
+  color: #3d4935;
+  text-decoration: none;
+}
+
+.mail a:hover,
+.tel a:hover {
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 /* Page ma commande (tableau) */
 
 table {
