@@ -583,6 +583,7 @@ th.nom-plat {
   text-align: left;
   color: white;
   font-weight: 600;
+  padding-right: 0;
 }
 
 th.prix,
@@ -590,6 +591,7 @@ th.quantite {
   text-align: center;
   color: white;
   font-weight: 600;
+  padding-left: 0;
 }
 
 td.nom-plat {
