@@ -579,10 +579,15 @@ th.quantite {
   font-family: ship-bold;
 }
 
-th.nom-plat,
+th.nom-plat {
+  text-align: left;
+  color: white;
+  font-weight: 600;
+}
+
 th.prix,
 th.quantite {
-  text-align: left;
+  text-align: center;
   color: white;
   font-weight: 600;
 }
