@@ -293,7 +293,7 @@ h3 {
 /* Page réservation (formulaire) */
 
 fieldset {
-  max-width: 600px;
+  width: 80%;
   margin: auto;
   margin-top: 12px;
   background-color: #949c812e;
@@ -304,6 +304,7 @@ fieldset {
 
 .fieldset-flex {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .info-facultatif {
@@ -312,6 +313,12 @@ fieldset {
   justify-content: flex-start;
   gap: 8px;
   flex-direction: column;
+}
+
+.info-obligatoire {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 45%;
 }
 
 input {
@@ -379,11 +386,6 @@ textarea {
   color: #3d4935;
   font-family: shippori;
   padding: 4px;
-}
-
-.info-obligatoire {
-  background-color: #fff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .required {
@@ -829,7 +831,7 @@ footer p {
   .fieldset-flex {
     flex-direction: column;
     margin-bottom: 40px;
-    padding: 20px 20px 40px 12px;
+    padding: 20px 20px 40px 20px;
   }
 
   legend {
