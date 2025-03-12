@@ -773,6 +773,17 @@ footer p {
   .cards > div {
     flex: 1 1 calc(50% - 15px);
   }
+
+  .fieldset-flex {
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 20px 20px 40px 20px;
+  }
+
+  .info-facultatif {
+    width: 70%;
+    margin-left: 100px;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -839,6 +850,7 @@ footer p {
   }
 
   .info-facultatif {
+    width: auto;
     margin: 8px 8px 0 12px;
   }
 }
