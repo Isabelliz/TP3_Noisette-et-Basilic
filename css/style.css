@@ -226,6 +226,10 @@ figure {
   margin-bottom: 40px;
 }
 
+.cards > div {
+  flex: 1 1 calc(33.333% - 20px);
+}
+
 .temoignages {
   display: flex;
   flex-direction: column;
@@ -761,4 +765,78 @@ footer p {
   align-items: baseline;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .cards > div {
+    flex: 1 1 calc(50% - 15px);
+  }
+}
+
+@media screen and (max-width: 570px) {
+  body {
+    background-image: none;
+  }
+
+  .principale {
+    flex-direction: column-reverse;
+    margin-top: -280px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .titre-principal {
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  .titre-principal img {
+    width: 90%;
+  }
+
+  .image-principale img {
+    position: relative;
+    border-radius: 0px;
+  }
+
+  .image-principale figure {
+    display: none;
+  }
+
+  .principale h2,
+  p {
+    text-align: center;
+  }
+
+  .logo-principale {
+    width: 100%;
+  }
+
+  .btn-principal {
+    justify-content: space-evenly;
+  }
+
+  .cards > div {
+    flex: 1 1 calc(100%);
+  }
+
+  .footer-haut,
+  .footer-bas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fieldset-flex {
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 20px 20px 40px 12px;
+  }
+
+  legend {
+    text-align: center;
+  }
+
+  .info-facultatif {
+    margin: 8px 8px 0 12px;
+  }
 }
