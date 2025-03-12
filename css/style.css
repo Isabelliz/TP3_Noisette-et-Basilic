@@ -26,12 +26,6 @@ body {
   font-family: shippori;
   justify-content: center;
   margin: 0;
-}
-
-.page-index,
-.page-reservation,
-.page-commande,
-.page-restaurant {
   background-image: url("../img/background-basilic.png");
   background-size: cover;
   background-position: center;
@@ -40,20 +34,20 @@ body {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.75rem;
+  color: #3d4935;
   font-weight: bold;
   text-align: center;
-  color: #3a4027;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 p {
   font-family: shippori;
-  color: #3a4027;
-  font-size: 22px;
+  color: #3d4935;
+  font-size: 1.375rem;
 }
 
 header {
@@ -88,13 +82,9 @@ main {
   padding-top: 128px;
 }
 
-.container-index {
-  padding-top: 90px;
-}
-
 .menu-nav nav ul li a {
   text-decoration: none;
-  color: #3a4027;
+  color: #3d4935;
   font-size: 30px;
 }
 
@@ -138,7 +128,7 @@ main {
   justify-content: space-evenly;
   border-radius: 60px;
   transition: background 0.3s ease;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .btn-commande i.fa-solid {
@@ -146,7 +136,7 @@ main {
   color: white;
 }
 
-.button {
+.btn-principal {
   display: flex;
   gap: 20px;
   height: 52px;
@@ -155,19 +145,20 @@ main {
   margin-top: 12px;
 }
 
-.button a {
+.btn-principal a {
   color: white;
   text-decoration: none;
   font-family: gidugu;
-  font-size: 24px;
+  font-size: 1.5rem;
   align-items: center;
   padding: 1px 40px;
   background-color: #3d4935;
   border-radius: 60px;
 }
 
-.button a:hover {
+.btn-principal a:hover {
   background-color: #949c81;
+  transition: background 0.3s ease;
 }
 
 .btn-commande:hover {
@@ -182,28 +173,28 @@ main {
 
 /* Page index (acceuil) */
 
-.image-principale img {
-  border-radius: 32px;
-}
-
 .principale {
   display: flex;
-  gap: 90px;
-  margin-top: 80px;
+  gap: 30px;
+  margin-top: 40px;
 }
 
 .principale p {
   margin-top: 0;
 }
 
-.titre {
+.image-principale img {
+  border-radius: 32px;
+}
+
+.titre-principal {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: -20px;
 }
 
-.titre h2 {
+.titre-principal h2 {
   text-align: left;
   margin-bottom: 8px;
 }
@@ -217,10 +208,11 @@ main {
 }
 
 figure {
+  font-size: 0.875rem;
   text-align: center;
 }
 
-/* Section clients sastisfactions */
+/* e clients sastisfactions */
 
 .cards {
   display: grid;
@@ -231,12 +223,12 @@ figure {
   margin-bottom: 40px;
 }
 
-.commentaires p {
-  font-size: 16px;
+.temoignages p {
+  font-size: 0.875rem;
   text-align: center;
 }
 
-.commentaires h2,
+.temoignages h2,
 h3 {
   text-align: left;
 }
@@ -527,7 +519,7 @@ main.confirmation {
   display: flex;
   justify-content: space-around;
   background-color: #949c8177;
-  color: #3a4027;
+  color: #3d4935;
   padding: 20px;
   margin-bottom: 40px;
   border-radius: 25px;
@@ -610,14 +602,14 @@ th.quantite {
 
 td.nom-plat {
   text-align: left;
-  color: #3a4027;
+  color: #3d4935;
 }
 
 td.prix,
 td.quantite {
   text-align: center;
   vertical-align: middle;
-  color: #3a4027;
+  color: #3d4935;
 }
 
 tr.ligne-grise {
