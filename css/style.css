@@ -212,20 +212,24 @@ figure {
   text-align: center;
 }
 
-/* e clients sastisfactions */
+/* Témoignages Clients */
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
   margin-bottom: 40px;
+}
+
+.temoignages {
+  display: flex;
+  flex-direction: column;
 }
 
 .temoignages p {
   font-size: 0.875rem;
-  text-align: center;
+  text-align: left;
 }
 
 .temoignages h2,
@@ -233,21 +237,21 @@ h3 {
   text-align: left;
 }
 
-.commentaire-personne {
+.commentaire-personne-1 {
   background-color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
   padding: 20px;
+  width: calc(33.333% - 20px);
 }
 
-.commentaire-personne-2,
-.commentaire-personne-4,
-.commentaire-personne-6 {
+.commentaire-personne-2 {
   background-color: #949c81;
   color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
   padding: 20px;
+  width: calc(33.333% - 20px);
 }
 
 .commentaire-personne-2 p,
@@ -256,10 +260,13 @@ h3 {
   color: white;
 }
 
+/* Petit header dans les cards */
+
 .commentaire-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 .commentaire-header img {
@@ -269,15 +276,7 @@ h3 {
 }
 
 .commentaire-header p {
-  font-size: 20px;
-  margin: 0;
-}
-
-.commentaires img {
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  object-fit: cover;
+  font-size: 1.25rem;
 }
 
 /* Page réservation (formulaire) */
@@ -447,7 +446,7 @@ main.confirmation {
   height: 100vh;
 }
 
-.card {
+.carte {
   background-color: white;
   padding: 40px;
   max-width: fit-content;
@@ -455,11 +454,11 @@ main.confirmation {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.card h1 {
+.carte h1 {
   text-align: center;
 }
 
-.card p {
+.carte p {
   color: rgb(109, 109, 109);
   text-align: center;
 }
