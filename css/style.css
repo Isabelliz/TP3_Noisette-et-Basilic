@@ -31,6 +31,9 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h2 {
@@ -80,6 +83,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 128px;
+  flex: 1;
 }
 
 .menu-nav nav ul li a {
@@ -287,12 +291,11 @@ h3 {
 fieldset {
   max-width: 600px;
   margin: auto;
+  margin-top: 12px;
   background-color: #949c812e;
   border-radius: 20px;
   padding: 0px 40px 40px 40px;
-  margin-bottom: 40px;
   border: 2px solid rgb(61, 73, 53);
-  justify-content: center;
 }
 
 .fieldset-flex {
@@ -302,7 +305,8 @@ fieldset {
 .info-facultatif {
   display: flex;
   margin-left: 40px;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 8px;
   flex-direction: column;
 }
 
