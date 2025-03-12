@@ -245,9 +245,13 @@ h3 {
   width: calc(33.333% - 20px);
 }
 
+.commentaire-personne-1 p,
+.commentaire-personne-1 h3 {
+  color: #3d4935;
+}
+
 .commentaire-personne-2 {
   background-color: #949c81;
-  color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
   padding: 20px;
@@ -255,8 +259,7 @@ h3 {
 }
 
 .commentaire-personne-2 p,
-.commentaire-personne-4 p,
-.commentaire-personne-6 p {
+.commentaire-personne-2 h3 {
   color: white;
 }
 
@@ -709,38 +712,34 @@ td.separator {
 }
 
 footer {
-  border-bottom: solid 1px #949c81;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   background-color: #dedfda;
   padding-bottom: 20px;
-  display: flex;
 }
 
 footer p {
   color: gray;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: gidugu;
-  margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
-.footer-1 {
+.footer-haut {
   display: flex;
-  align-items: baseline;
-  flex-direction: row;
   justify-content: space-between;
-  margin-top: 18px;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .fa-brands {
   font-size: 28px;
   color: #3d4935;
-  margin-left: 18px;
+  margin-left: 1.75rem;
 }
 
 .fa-solid {
-  font-size: 28px;
+  font-size: 1.75rem;
   color: #3d4935;
   margin-right: 14px;
 }
@@ -753,7 +752,7 @@ footer p {
   color: #949c81;
 }
 
-.footer-2 {
+.footer-bas {
   display: flex;
   align-items: baseline;
   flex-direction: row;
