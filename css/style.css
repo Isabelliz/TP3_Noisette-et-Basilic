@@ -219,15 +219,16 @@ figure {
 /* Témoignages Clients */
 
 .cards {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
+  gap: 16px;
   margin-bottom: 40px;
 }
 
 .cards > div {
-  flex: 1 1 calc(33.333% - 20px);
+  flex-basis: calc(33.333% - 20px);
+  flex-grow: 1;
 }
 
 .temoignages {
@@ -769,21 +770,41 @@ footer p {
   justify-content: space-between;
 }
 
+.ligne {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
 @media screen and (max-width: 960px) {
   .cards > div {
-    flex: 1 1 calc(50% - 15px);
+    flex-basis: calc(50% - 15px);
   }
 
-  .fieldset-flex {
-    flex-direction: column;
-    margin-bottom: 40px;
-    padding: 20px 20px 40px 20px;
+  .commentaire-header {
+    flex-direction: row;
   }
+}
 
-  .info-facultatif {
-    width: 70%;
-    margin-left: 100px;
-  }
+.commentaire-header p,
+.commentaire-personne-1 h3,
+.commentaire-personne-2 h3,
+.commentaire-personne-1 p,
+.commentaire-personne-2 p {
+  text-align: left;
+  margin: 8px;
+}
+
+.fieldset-flex {
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 20px 20px 40px 20px;
+}
+
+.info-facultatif {
+  width: 70%;
+  margin-left: 100px;
 }
 
 @media screen and (max-width: 570px) {
@@ -825,12 +846,34 @@ footer p {
     width: 100%;
   }
 
+  .ligne {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .temoignages h2 {
+    text-align: center;
+  }
+
   .btn-principal {
     justify-content: space-evenly;
   }
 
   .cards > div {
     flex: 1 1 calc(100%);
+  }
+
+  .commentaire-header {
+    flex-direction: row;
+  }
+
+  .commentaire-header p,
+  .commentaire-personne-1 h3,
+  .commentaire-personne-2 h3,
+  .commentaire-personne-1 p,
+  .commentaire-personne-2 p {
+    text-align: left;
+    margin: 8px;
   }
 
   .footer-haut,
