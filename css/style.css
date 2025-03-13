@@ -774,9 +774,6 @@ footer p {
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
-}
-
 @media screen and (max-width: 960px) {
   .cards > div {
     flex-basis: calc(50% - 15px);
