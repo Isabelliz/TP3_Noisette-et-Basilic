@@ -782,26 +782,26 @@ footer p {
   .commentaire-header {
     flex-direction: row;
   }
-}
 
-.commentaire-header p,
-.commentaire-personne-1 h3,
-.commentaire-personne-2 h3,
-.commentaire-personne-1 p,
-.commentaire-personne-2 p {
-  text-align: left;
-  margin: 8px;
-}
+  .commentaire-header p,
+  .commentaire-personne-1 h3,
+  .commentaire-personne-2 h3,
+  .commentaire-personne-1 p,
+  .commentaire-personne-2 p {
+    text-align: left;
+    margin: 8px;
+  }
 
-.fieldset-flex {
-  flex-direction: column;
-  margin-bottom: 40px;
-  padding: 20px 20px 40px 20px;
-}
+  .fieldset-flex {
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 20px 20px 40px 20px;
+  }
 
-.info-facultatif {
-  width: 70%;
-  margin-left: 100px;
+  .info-facultatif {
+    width: 70%;
+    margin-left: 100px;
+  }
 }
 
 @media screen and (max-width: 570px) {
