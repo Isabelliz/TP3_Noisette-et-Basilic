@@ -16,6 +16,11 @@
   src: url(../fonts/Gidugu/Gidugu-Regular.ttf);
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -24,16 +29,13 @@
 
 body {
   font-family: shippori;
-  justify-content: center;
   margin: 0;
   background-image: url("../img/background-basilic.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 h2 {
@@ -834,10 +836,6 @@ footer p {
 }
 
 @media screen and (max-width: 570px) {
-  body {
-    background-image: none;
-  }
-
   .principale {
     flex-direction: column-reverse;
     margin-top: -280px;
@@ -870,6 +868,11 @@ footer p {
 
   .logo-principale {
     width: 100%;
+  }
+
+  .btn-principal {
+    flex-direction: column;
+    margin-bottom: 40px;
   }
 
   .ligne {
