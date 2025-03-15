@@ -364,11 +364,6 @@ legend {
   padding-right: 8px;
 }
 
-span {
-  color: red;
-  font-weight: bolder;
-}
-
 select {
   padding: 4px;
   border-radius: 8px;
@@ -909,6 +904,14 @@ footer p {
   .footer-bas {
     flex-direction: column;
     align-items: center;
+  }
+
+  .reseaux-txt {
+    display: block;
+  }
+
+  .footer-bas p {
+    margin: 0;
   }
 
   .fieldset-flex {
