@@ -91,7 +91,7 @@ main {
 .menu-nav nav ul li a {
   text-decoration: none;
   color: #3d4935;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .menu-nav nav ul {
@@ -138,7 +138,7 @@ main {
 }
 
 .btn-commande i.fa-solid {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -444,7 +444,7 @@ textarea {
 .submit {
   width: 100%;
   font-family: gidugu;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .submit:hover {
@@ -491,7 +491,7 @@ main.confirmation {
 
 .container-grid > div {
   background-color: #f1f1f1;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-align: center;
   border-radius: 24px;
 }
@@ -636,7 +636,7 @@ tr.ligne-grise {
 }
 
 .commande h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #3d4935;
 }
 
@@ -665,7 +665,7 @@ tr.ligne-grise {
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .button-commande {
@@ -680,7 +680,7 @@ tr.ligne-grise {
   color: white;
   text-decoration: none;
   font-family: gidugu;
-  font-size: 24px;
+  font-size: 1.5rem;
   align-items: center;
   padding: 1px 40px;
   background-color: #3d4935;
@@ -706,22 +706,22 @@ table {
 th.facture {
   text-align: left;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 td.prix-facture {
   text-align: right;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 tbody .total th {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 tbody .total td.prix-facture {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 td.separator {
@@ -751,7 +751,7 @@ footer p {
 }
 
 .fa-brands {
-  font-size: 28px;
+  font-size: 1.75rem;
   color: #3d4935;
   margin-left: 1.75rem;
 }
