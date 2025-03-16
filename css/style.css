@@ -207,6 +207,7 @@ main {
 .titre-principal h2 {
   text-align: left;
   margin-bottom: 8px;
+  white-space: nowrap;
 }
 
 .principale h3 {
@@ -354,7 +355,7 @@ label {
   display: block;
   color: #333;
   padding-right: 10px;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
   margin-top: 20px;
 }
 
@@ -562,6 +563,7 @@ main.confirmation {
 .tel p,
 .mail p {
   margin-top: 0px;
+  white-space: nowrap;
 }
 
 .mail a,
@@ -607,6 +609,7 @@ th.nom-plat {
   color: white;
   font-weight: 600;
   padding-right: 0;
+  font-size: 1.125rem;
 }
 
 th.prix,
@@ -615,6 +618,7 @@ th.quantite {
   color: white;
   font-weight: 600;
   padding-left: 0;
+  font-size: 1.125rem;
 }
 
 td.nom-plat {
@@ -705,6 +709,7 @@ th.facture {
   text-align: left;
   font-weight: bold;
   font-size: 1.5rem;
+  white-space: nowrap;
 }
 
 td.prix-facture {
@@ -815,6 +820,10 @@ footer p {
     width: 70%;
     margin-left: 100px;
   }
+  .info-facultatif h3 {
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
 
   .item1 {
     grid-column: 1 / span 1;
@@ -831,7 +840,7 @@ footer p {
 
   .item4 {
     grid-column: 1 / span 4;
-    grid-row: 4 / span 3;
+    grid-row: 4 / span 2;
   }
 
   .item5 {
@@ -843,6 +852,10 @@ footer p {
   }
   .container-grid {
     grid-gap: 12px;
+  }
+
+  .carte-paiement {
+    width: 40%;
   }
 }
 
@@ -1003,6 +1016,7 @@ footer p {
   .carte-paiement {
     margin: 0 auto 40px auto;
     display: block;
+    width: 90%;
   }
   .carte-paiement h2 {
     text-align: center;
