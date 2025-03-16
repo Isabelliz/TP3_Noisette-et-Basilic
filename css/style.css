@@ -784,6 +784,10 @@ footer p {
     text-align: center;
   }
 
+  .image-principale img {
+    width: 400px;
+  }
+
   .cards > div {
     flex-basis: calc(50% - 15px);
   }
@@ -860,8 +864,10 @@ footer p {
   }
 
   .image-principale img {
-    position: relative;
     border-radius: 0px;
+    max-width: none;
+    width: 120%;
+    margin-left: -10%;
   }
 
   .image-principale figure {
