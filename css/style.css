@@ -649,7 +649,7 @@ tr.ligne-grise {
   margin-top: 80px;
   margin-bottom: 40px;
   padding: 20px;
-  width: 400px;
+  width: 350px;
   max-height: 450px;
   height: 100%;
   overflow: auto;
@@ -983,5 +983,19 @@ footer p {
   .icone-h3 {
     align-items: center;
     justify-content: center;
+  }
+
+  .commande-paiement {
+    flex-direction: column;
+  }
+  .carte-paiement {
+    margin: 0 auto 40px auto;
+    display: block;
+  }
+  .carte-paiement h2 {
+    text-align: center;
+  }
+  .button-commande {
+    justify-content: space-around;
   }
 }
