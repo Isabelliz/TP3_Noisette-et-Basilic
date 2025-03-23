@@ -403,8 +403,7 @@ input:focus {
 label {
   display: block;
   color: #333;
-  padding-right: 10px;
-  padding-bottom: 8px;
+  padding: 0 10px 8px 0;
   margin-top: 20px;
 }
 
@@ -450,7 +449,7 @@ textarea {
   gap: 60px;
 }
 
-.phone {
+.infolettre {
   margin-top: 20px;
 }
 
@@ -474,19 +473,11 @@ textarea {
   gap: 8px;
 }
 
-.infolettre {
-  margin-top: 20px;
-}
-
-.soumettre {
-  margin-top: 40px;
-}
-
 .submit {
   color: white;
   background-color: #3d4935;
-  text-decoration: none;
   padding: 0;
+  margin-top: 40px;
   border-radius: 60px;
   transition: background 0.3s ease;
 }
@@ -534,8 +525,7 @@ main.confirmation {
   grid-template-columns: auto;
   grid-auto-rows: 200px;
   grid-gap: 24px;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin: 40px 0 60px 0;
 }
 
 .container-grid > div {
@@ -630,8 +620,7 @@ main.confirmation {
 /* Page ma commande (tableau) */
 
 table {
-  margin-top: 10px;
-  margin-bottom: 36px;
+  margin: 10px 0 36px 0;
 }
 
 th,
@@ -700,8 +689,7 @@ tr.ligne-grise {
   background-color: #949c81;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin: 80px 0 40px;
   padding: 20px;
   width: 30%;
   max-height: 100%;
@@ -713,8 +701,7 @@ tr.ligne-grise {
 .carte-paiement h2 {
   text-align: left;
   color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   font-size: 2rem;
 }
 
@@ -791,8 +778,7 @@ footer p {
   color: gray;
   font-size: 1.5rem;
   font-family: gidugu;
-  margin-bottom: 12px;
-  margin-top: 12px;
+  margin: 12px 0;
 }
 
 .footer-haut {
@@ -917,8 +903,7 @@ footer p {
     margin-left: 100px;
   }
   .info-facultatif h3 {
-    margin-bottom: 0;
-    margin-top: 40px;
+    margin: 40px 0 0;
   }
 
   .item1 {
@@ -964,8 +949,7 @@ footer p {
   }
 
   .titre-principal {
-    margin-top: 8px;
-    margin-bottom: 20px;
+    margin: 8px 0 20px;
   }
 
   .titre-principal img {
