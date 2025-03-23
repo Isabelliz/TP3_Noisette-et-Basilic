@@ -491,15 +491,34 @@ textarea {
 
 /* Page confirmation */
 
+body.confirmation-page {
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 main.confirmation {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 0;
+}
+
+.logo-confirmation img {
+  width: 200px;
+  display: block;
+  margin: 60px auto 0;
+  padding: 0;
 }
 
 .carte h1 {
   text-align: center;
+  color: #3d4935;
 }
 
 .carte p {
