@@ -120,7 +120,6 @@ main {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
 }
 
 .menu-nav a {
@@ -1027,6 +1026,19 @@ footer p {
     flex-direction: column;
     margin-bottom: 40px;
     padding: 20px 20px 40px 20px;
+  }
+
+  .nom-prenom,
+  .date-heure {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  input#txt-prenom,
+  input#txt-nom,
+  input#txt-phone {
+    width: 100%;
   }
 
   legend {
