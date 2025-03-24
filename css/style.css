@@ -781,6 +781,7 @@ footer p {
 .fa-solid {
   font-size: 1.75rem;
   color: #3d4935;
+  margin-right: 10px;
 }
 
 .fa-solid:hover {
@@ -809,7 +810,6 @@ a.courriel:hover {
 
 a.icones-reseaux {
   text-decoration: none;
-  margin-right: 10px;
 }
 
 .ligne {
