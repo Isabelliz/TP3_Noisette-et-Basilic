@@ -798,6 +798,20 @@ footer p {
   justify-content: space-between;
 }
 
+a.courriel {
+  text-decoration: none;
+  color: #808080;
+}
+
+a.courriel:hover {
+  text-decoration: underline;
+}
+
+a.icones-reseaux {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
 .ligne {
   display: none;
 }
@@ -950,11 +964,6 @@ footer p {
 
   .image-principale figure {
     display: none;
-  }
-
-  .principale h2,
-  p {
-    text-align: center;
   }
 
   .logo-principale {
