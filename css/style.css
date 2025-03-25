@@ -339,7 +339,7 @@ fieldset {
   background-color: #949c812e;
   border-radius: 20px;
   padding: 0px 40px 40px 40px;
-  border: 2px solid rgb(61, 73, 53);
+  border: 2px solid #3d4935;
 }
 
 .fieldset-flex {
@@ -373,9 +373,9 @@ input#txt-email {
 }
 
 input:focus {
-  border: 1px solid rgb(61, 73, 53);
+  border: 1px solid #3d4935;
   outline: none;
-  background-color: rgb(61, 73, 53, 0.2);
+  background-color: #3d493533;
   border: solid 1px;
 }
 
@@ -401,16 +401,16 @@ legend {
 select {
   padding: 4px;
   border-radius: 8px;
-  border: 1px solid rgb(61, 73, 53);
+  border: 1px solid #3d4935;
 }
 
 select:focus {
-  border-color: rgb(61, 73, 53);
+  border-color: #3d4935;
   outline: none;
 }
 
 select:hover {
-  background-color: rgb(61, 73, 53);
+  background-color: #3d4935;
   color: #fff;
 }
 
@@ -506,7 +506,7 @@ main.confirmation {
 }
 
 .carte p {
-  color: rgb(109, 109, 109);
+  color: #808080;
   text-align: center;
 }
 
@@ -712,7 +712,7 @@ tr.ligne-grise {
 .button-commande a:hover {
   background-color: white;
   color: #3d4935;
-  border: 2px solid rgb(61, 73, 53);
+  border: 2px solid #3d4935;
 }
 
 th.facture,
