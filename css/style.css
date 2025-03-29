@@ -207,6 +207,7 @@ main {
 
 .btn-commande.active {
   color: white !important;
+  text-decoration: none !important;
   background-color: #949c81;
 }
 
