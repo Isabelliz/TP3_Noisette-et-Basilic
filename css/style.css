@@ -142,6 +142,7 @@ main {
 
 .menu-nav a.active {
   color: #949c81;
+  text-decoration: underline;
 }
 
 .separation {
