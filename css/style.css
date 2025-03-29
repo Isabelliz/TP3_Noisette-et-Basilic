@@ -79,7 +79,7 @@ main {
   flex: 1;
 }
 
-/* Menu burger */
+/* Menu burger avec un checbox suivi d'un tuto */
 
 .burger-checkbox {
   display: none;
@@ -119,6 +119,7 @@ main {
 }
 
 /* Bouton commande */
+
 .btn-commande {
   padding: 10px 20px;
   background: #3d4935;
@@ -584,6 +585,10 @@ main.confirmation {
 .icone-h3 {
   display: flex;
   align-items: center;
+}
+
+address {
+  font-style: normal;
 }
 
 .adresse p,
