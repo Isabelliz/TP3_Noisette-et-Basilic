@@ -1093,6 +1093,7 @@ a.icones-reseaux {
 
   .contact-box {
     flex-direction: column;
+    text-align: center;
   }
 
   .icone-h3 {
