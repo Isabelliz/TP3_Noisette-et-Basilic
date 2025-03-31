@@ -593,6 +593,10 @@ main.confirmation {
   align-items: center;
 }
 
+.icone-h3 p {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
